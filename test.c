@@ -107,7 +107,7 @@ void RandomWords(WORDS *words,char filename[])
     strcpy(words->English_meaning,"None");
     else
     strcpy(words->English_meaning ,en->valuestring);
-    cJSON_Delete(words_root);//删除words_root对象,释放内存
+    cJSON_Delete(words_root);//删除words_root对象
     words_root=NULL;
 }
 
