@@ -157,7 +157,7 @@ void Game(WORDS* words,int COL,char arr[][COL+1],ACC *acc)
         }
         else if(result==0&&i==4)
         {
-            printf("游戏结束🤪\n");
+            printf("游戏结束\n");
             break;
         }
     }
